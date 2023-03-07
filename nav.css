@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+
+}
+nav{
+   height: 75px;
+    background-color: #333;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 4rem;
+   padding: 0 4rem;
+
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+}
+nav ul li{
+    color: aliceblue;
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 4rem;
+    padding: 0;
+    margin: 0;
+}
+nav ul li.active{
+    background-color: burlywood;
+}
+nav ul li:hover{
+    background-color: burlywood;
+}
