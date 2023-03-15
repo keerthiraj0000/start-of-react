@@ -1,0 +1,17 @@
+.block1{
+    height: 300px;
+    width: 300px;
+     background-color: #333;
+     padding: 40px;
+     border: 10px solid rgba(255, 255, 255, 0.405);
+}
+h1{
+    color: antiquewhite;
+    margin-left: 140px;
+}
+button{
+      /* background-color: red; */
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
